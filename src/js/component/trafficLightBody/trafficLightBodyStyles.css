@@ -1,0 +1,155 @@
+.bodyLight{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 140px;
+    height: 360px;
+    border-radius: 10px;
+    border: 2px solid rgb(63, 63, 63);
+}
+.redLight, .orangeLight, .greenLight, .purpleLight{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.purpleLight, .purpleLightSelected{
+    margin-bottom: 15px;
+}
+.redLight{
+    background-color: rgba(255, 0, 0, 0.514);
+}
+.orangeLight{
+    background-color: rgba(255, 166, 0, 0.507);
+    
+}
+.greenLight{
+    background-color: rgba(0, 128, 0, 0.493);
+    
+}
+.purpleLight{
+    background-color: #2c0b8e8a;
+}
+.redLightSelected, .orangeLightSelected, .greenLightSelected, .purpleLightSelected{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.redLightSelected{
+    background-color: rgb(255, 0, 0);
+    
+}
+.orangeLightSelected{
+    background-color: rgb(255, 166, 0);
+    
+}
+.greenLightSelected{
+    background-color: rgb(0, 128, 0);
+   
+}
+.purpleLightSelected{
+    background-color: #2c0b8e;
+}
+.css-button-sliding-to-bottom--green {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid rgb(1, 192, 1);
+    color: green;
+  }
+  .css-button-sliding-to-bottom--green:hover {
+    color: #fff;
+  }
+  .css-button-sliding-to-bottom--green:hover:after {
+    height: 100%;
+  }
+  .css-button-sliding-to-bottom--green:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 100%;
+    background: green;
+  }
+  .css-button-sliding-to-top--blue {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #2c0b8e;
+    color: #2c0b8e;
+  }
+  .css-button-sliding-to-top--blue:hover {
+    color: #fff;
+  }
+  .css-button-sliding-to-top--blue:hover:after {
+    height: 100%;
+  }
+  .css-button-sliding-to-top--blue:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background: #2c0b8e;
+  }
+  .css-button-fully-rounded--red {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #d90429;
+    background: #d90429;
+    
+  }
+  .css-button-fully-rounded--red:hover {
+    background: #fff;
+    color: #d90429
+  }
+  .buttonShutDown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #purpleDiv{
+    display: none;
+  }

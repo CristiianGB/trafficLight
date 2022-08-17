@@ -94,7 +94,7 @@ const TrafficLightBody = () => {
       </div>
       <div className="buttonShutDown">
       <button
-          className="css-button-fully-rounded--red mx-3 mt-5"
+          className="css-button-fully-rounded--red mx-3 mt-2"
           onClick={shutDown}
         >
           Apaga
